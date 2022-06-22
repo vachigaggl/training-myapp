@@ -1,9 +1,9 @@
 version: '3.8'
 services:
-  yasminappfinal:
-    image: yasmincustomer1:v1
+  krisappfinal:
+    image: kriscustomer1:v1
     build: .
-    container_name: yasmin001
+    container_name: kris001
     ports:
     - "1999:80"
     restart: always
