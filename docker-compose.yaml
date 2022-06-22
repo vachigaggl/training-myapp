@@ -5,7 +5,7 @@ services:
     build: .
     container_name: kris001
     ports:
-    - "1999:80"
+    - "3232:80"
     restart: always
     environment:
       deploy: "app2"
