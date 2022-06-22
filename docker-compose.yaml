@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  yasminappfinal:
+    image: yasmincustomer1:v1
+    build: .
+    container_name: yasmin001
+    ports:
+    - "1999:80"
+    restart: always
+    environment:
+      deploy: "app2"
